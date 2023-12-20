@@ -40,6 +40,8 @@
 		font-size: 1.4rem;
 		margin-bottom: 1rem;
 		padding: 1rem;
+		transition-property: background-color;
+		transition-duration: .3s;
 
 		&:hover {
 			background-color: v.$grisClaro;

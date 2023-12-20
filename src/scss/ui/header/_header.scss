@@ -18,6 +18,8 @@
 
 		&-boton {
 			@include m.boton(v.$blanco, v.$primario);
+			transition-property: box-shadow;
+			transition-duration: .3s;
 
 			&:hover {
 				box-shadow: 0px 6px 20px rgb(255 255 255 / 40%);
