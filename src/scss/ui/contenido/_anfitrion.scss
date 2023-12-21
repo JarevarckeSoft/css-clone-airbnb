@@ -10,8 +10,13 @@
 	padding: 5rem;
 	background-image: linear-gradient(to bottom, v.$negro 0%, v.$negro 50%, transparent 50%), url(../img/anfitrion.jpg);
 	background-size: 100%, 62rem;
-	background-position: center, center bottom;
+	background-position: center, 67% 95%;
 	background-repeat: no-repeat;
+
+	@include m.minitelefono {
+		background-size: 100%, 64rem;
+		background-position: center, 74% 110%;
+	}
 
 	@include m.telefono {		
 		background-size: 100%, 74rem;
